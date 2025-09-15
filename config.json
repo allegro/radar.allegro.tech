@@ -1,0 +1,145 @@
+{
+  "basePath": "/",
+  "baseUrl": "https://radar.allegro.tech",
+  "editUrl": "https://github.dev/allegro/radar/blob/main/radar/{release}/{id}.md",
+  "logoFile": "logo.svg",
+  "jsFile": "",
+  "toggles": {
+    "showSearch": false,
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": false,
+    "showEmptyRings": false
+  },
+  "sections": [
+    "radar",
+    "tags",
+    "list"
+  ],
+  "colors": {
+    "foreground": "#ff5200",
+    "background": "#FFF7F2",
+    "highlight": "#FFD6B3",
+    "content": "#FFF3E6",
+    "text": "#2D2D2D",
+    "link": "#FF5200",
+    "border": "rgba(255, 82, 0, 0.15)",
+    "tag": "rgba(255, 82, 0, 0.10)"
+  },
+  "quadrants": [
+    {
+      "id": "languages",
+      "title": "Languages",
+      "description": "Programming languages used at Allegro. Controlling language diversity helps team fluidity and aligns with hiring strategy, reducing long-term risk.",
+      "color": "#f8bc56"
+    },
+    {
+      "id": "frameworks",
+      "title": "Framework & Tools",
+      "description": "Frameworks and tools adopted at Allegro. Helps teams choose technologies and shows company investments in external solutions.",
+      "color": "#fad28f"
+    },
+    {
+      "id": "platforms",
+      "title": "Databases & Infra",
+      "description": "Databases and infrastructure services provided as Platform as a Service. These are key building blocks for Allegro software and must be kept up to date.",
+      "color": "#fad28f"
+    },
+    {
+      "id": "techniques",
+      "title": "Techniques & Tools",
+      "description": "Good practices, techniques, and tools for applying technology effectively. Also notes practices that are harmful or not widely tested.",
+      "color": "#f8bc56"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Adopt",
+      "description": "",
+      "color": "#ffefe3",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "trial",
+      "title": "Trial",
+      "description": "",
+      "color": "#ffdecc",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "assess",
+      "title": "Assess",
+      "description": "",
+      "color": "#ffbb9b",
+      "radius": 0.85,
+      "strokeWidth": 2
+    },
+    {
+      "id": "hold",
+      "title": "Hold",
+      "description": "",
+      "color": "#ff9664",
+      "radius": 1,
+      "strokeWidth": 0.75
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#f1235a",
+      "title": "New",
+      "titleShort": "N",
+      "description": "New in this version"
+    },
+    "changed": {
+      "color": "#40a7d1",
+      "title": "Changed",
+      "titleShort": "C",
+      "description": "Recently changed"
+    },
+    "default": {
+      "description": "Unchanged"
+    }
+  },
+  "chart": {
+    "size": 800,
+    "blipSize": 12
+  },
+  "social": [
+    {
+      "href": "https://twitter.com/allegrotech",
+      "icon": "x"
+    },
+    {
+      "href": "https://www.linkedin.com/company/allegro",
+      "icon": "linkedIn"
+    },
+    {
+      "href": "https://github.com/allegro",
+      "icon": "github"
+    }
+  ],
+  "labels": {
+    "title": "Technology Radar",
+    "imprint": "Legal Information",
+    "quadrant": "Quadrant",
+    "quadrantOverview": "Quadrant Overview",
+    "zoomIn": "Zoom in",
+    "filterByTag": "Filter by Tag",
+    "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+    "notFound": "404 - Page not found",
+    "pageAbout": "How to use Technology Radar?",
+    "pageOverview": "Technologies Overview",
+    "pageSearch": "Search",
+    "searchPlaceholder": "What are you looking for?",
+    "metaDescription": ""
+  },
+  "fuzzySearch": {
+    "threshold": 0.4,
+    "distance": 600,
+    "ignoreLocation": false,
+    "includeScore": true
+  }
+}

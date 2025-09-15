@@ -1,0 +1,13 @@
+{
+  "name": "radar.allegro.tech",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "techradar build --strict",
+    "serve": "techradar serve"
+  },
+  "dependencies": {
+    "aoe_technology_radar": "^4",
+    "slugify": "^1.6.6"
+  }
+}
