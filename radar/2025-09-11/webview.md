@@ -5,4 +5,5 @@ quadrant: frameworks
 tags: [ ]
 ---
 
-WebView in Mobile Tech Radar - Additional information available in tech radar. 
+WebView is a component that allows displaying web content in iOS and Android applications, enabling the integration of
+web-based content and functionalities within native apps.

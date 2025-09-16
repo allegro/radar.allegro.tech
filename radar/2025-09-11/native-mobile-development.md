@@ -2,7 +2,8 @@
 title: "Native Mobile Development"
 ring: adopt
 quadrant: frameworks
-tags: []
+tags: [ ]
 ---
 
-Native Mobile Development in Mobile Tech Radar - Additional information available in tech radar. 
+Native Mobile Development refers to building mobile applications specifically for a single platform, using
+platform-specific languages and tools, ensuring optimal performance and user experience.
