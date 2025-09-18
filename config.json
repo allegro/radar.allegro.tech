@@ -2,7 +2,7 @@
   "basePath": "/",
   "baseUrl": "https://radar.allegro.tech",
   "editUrl": "https://github.dev/allegro/radar/blob/main/radar/{release}/{id}.md",
-  "logoFile": "logo.svg",
+  "logoFile": "/logo.svg",
   "jsFile": "",
   "toggles": {
     "showSearch": false,

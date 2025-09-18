@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "techradar build --strict",
+    "postbuild": "./inject-plausible.sh",
     "serve": "techradar serve"
   },
   "dependencies": {
