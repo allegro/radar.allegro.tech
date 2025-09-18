@@ -44,15 +44,15 @@ article, [class^="Label_description__"] {
 }
 
 [class^="QuadrantList_quadrants__"] {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 768px) {
   [class^="Radar_radar__"] {
-    display: none;
+    display: none !important;
   }
 
   [class^="QuadrantList_quadrants__"] {
-    display: block;
+    display: flex;
   }
 }
