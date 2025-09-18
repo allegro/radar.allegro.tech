@@ -53,6 +53,6 @@ article, [class^="Label_description__"] {
   }
 
   [class^="QuadrantList_quadrants__"] {
-    display: flex;
+    display: flex !important;
   }
 }
