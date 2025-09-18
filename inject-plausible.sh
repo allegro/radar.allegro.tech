@@ -1,2 +1,4 @@
-sed -i '' 's#</head>#<script defer data-domain="radar.allegro.tech" src="https://plausible.io/js/script.js"></script></head>#' build/index.html
-sed -i '' 's#</head>#<script defer data-domain="radar.allegro.tech" src="https://plausible.io/js/script.js"></script></head>#' build/404.html
+if [ "$GITHUB_ACTIONS" = "true" ]; then
+    sed -i 's#</head>#<script defer data-domain="radar.allegro.tech" src="https://plausible.io/js/script.js"></script></head>#' build/index.html
+    sed -i 's#</head>#<script defer data-domain="radar.allegro.tech" src="https://plausible.io/js/script.js"></script></head>#' build/404.html
+fi
