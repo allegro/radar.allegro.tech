@@ -8,7 +8,7 @@
     "showSearch": false,
     "showChart": true,
     "showTagFilter": true,
-    "showQuadrantList": false,
+    "showQuadrantList": true,
     "showEmptyRings": false
   },
   "sections": [

@@ -38,3 +38,21 @@ article, [class^="Label_description__"] {
 [class^="Footer_imprint__"] {
     display: none;
 }
+
+[class^="Radar_radar__"] {
+  display: block;
+}
+
+[class^="QuadrantList_quadrants__"] {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  [class^="Radar_radar__"] {
+    display: none;
+  }
+
+  [class^="QuadrantList_quadrants__"] {
+    display: block;
+  }
+}
