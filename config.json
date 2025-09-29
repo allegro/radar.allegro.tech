@@ -35,19 +35,19 @@
     },
     {
       "id": "frameworks",
-      "title": "Framework & Tools",
+      "title": "Frameworks & Tools",
       "description": "Frameworks and tools adopted at Allegro. Helps teams choose technologies and shows company investments in external solutions.",
       "color": "#fad28f"
     },
     {
       "id": "platforms",
-      "title": "Databases & Infra",
+      "title": "Databases & Infrastructure",
       "description": "Databases and infrastructure services provided as Platform as a Service. These are key building blocks for Allegro software and must be kept up to date.",
       "color": "#fad28f"
     },
     {
       "id": "techniques",
-      "title": "Techniques",
+      "title": "Techniques & Tools",
       "description": "Good practices, techniques, and tools for applying technology effectively. Also notes practices that are harmful or not widely tested.",
       "color": "#f8bc56"
     }
