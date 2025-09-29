@@ -5,10 +5,11 @@
 ## Understand the Quadrants
 
 - **Languages** – Controls programming language diversity to align with hiring and maintenance strategy.
-- **Framework & Tools** – Lists of frameworks, libraries, and tools Allegro invests in for productivity and
+- **Frameworks & Tools** – Lists of frameworks, libraries, and tools Allegro invests in for productivity and
   maintainability.
-- **Databases & Infra** – Covers foundational services and PaaS components critical for scalability and stability.
-- **Techniques** – Highlights good practices, methodologies, and organizational/technical approaches.
+- **Databases & Infrastructure** – Covers foundational services and PaaS components critical for scalability
+  and stability.
+- **Techniques & Tools** – Highlights good practices, methodologies, and organizational/technical approaches.
 
 > Quadrants only group items; they don’t change the evaluation process.
 
