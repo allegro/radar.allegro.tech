@@ -5,5 +5,6 @@ quadrant: platforms
 tags: []
 ---
 
-checking, and key-value storage**. It enables applications to easily find and communicate with each other, even in
-dynamic and distributed environments. 
+Consul provides a distributed, highly available, and fault-tolerant system for service discovery, health
+checking, and key-value storage. It enables applications to easily find and communicate with each other, even in
+dynamic and distributed environments.
